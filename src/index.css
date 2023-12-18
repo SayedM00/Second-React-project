@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    width: 400px;
+    background-color: #EEE;
+    min-height: 100px;
+    margin-top: 100px;
+    padding: 30px 50px;
+    text-align: center;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+.numbers div {
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AAA;
+}
+
+.message {
+    text-align: center;
+    margin:60px auto;
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    background: #7950f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.active {
+    background-color: #7950f2 !important;
+    color:white
+}
